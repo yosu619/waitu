@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>合同会社Y2FinTech ｜ 福岡のシステム開発・業務自動化</title>
+<meta name="description" content="福岡・博多のシステム開発会社。自社で開発・運用しているシステムの知見を活かし、業務自動化ツールから金融まわりの仕組みまで、実際に動く状態でご確認いただいてからご契約いただけます。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Inter:wght@600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== ヘッダー ===== -->
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#top" class="header__logo">
+      <img src="img/logo.png" alt="合同会社Y2FinTech" class="header__logo-img">
+    </a>
+    <nav class="gnav" id="gnav">
+      <ul class="gnav__list">
+        <li><a href="#issue">課題</a></li>
+        <li><a href="#strength">私たちの強み</a></li>
+        <li><a href="#promise">お約束</a></li>
+        <li><a href="#works">開発実績</a></li>
+        <li><a href="#process">開発の流れ</a></li>
+        <li><a href="#company">会社概要</a></li>
+        <li><a href="#faq">よくある質問</a></li>
+      </ul>
+      <a href="#contact" class="btn btn--gold gnav__cta">無料で相談する <span class="btn__arrow">→</span></a>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="メニューを開く" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ===== ファーストビュー ===== -->
+<section class="hero">
+  <div class="hero__inner">
+    <div class="hero__text">
+      <h1 class="hero__copy">
+        つくれる会社は、<br>たくさんある。<br>
+        <span class="hero__copy-accent">つかい続けている</span>会社は、<br class="sp-only">そう多くない。
+      </h1>
+      <p class="hero__sub">
+        私たちは、自分たちで開発したシステムを、自分たちの業務で毎日動かしています。<br>
+        つくって終わりではなく、動かし続けたときに何が起きるかを知っている。それが、Y2FinTechの立ち位置です。
+      </p>
+
+      <div class="hero__offer">
+        <div class="hero__offer-badge">月<span>3</span>社まで</div>
+        <p class="hero__offer-text">ご契約前に、実際に操作できる試作版をお作りします。<br>費用はいただきません。</p>
+      </div>
+
+      <a href="#contact" class="btn btn--cta hero__cta">
+        <span class="btn__main">まずは話を聞かせてください <span class="btn__arrow">→</span></span>
+        <span class="btn__note">オンライン・60分・無料</span>
+      </a>
+
+      <ul class="hero__checks">
+        <li>ご相談から最短2週間で、操作できる試作版をお持ちします</li>
+        <li>試作版を見たうえで、お断りいただいても構いません</li>
+        <li>業界用語ではなく、お客様の業務の言葉でお話しします</li>
+      </ul>
+    </div>
+
+    <div class="hero__visual" aria-hidden="true">
+      <svg viewBox="0 0 520 400" class="hero__svg" xmlns="http://www.w3.org/2000/svg">
+        <!-- ノートPCのダッシュボード風イラスト -->
+        <rect x="40" y="40" width="440" height="280" rx="12" fill="#1B2A41"/>
+        <rect x="56" y="56" width="408" height="248" rx="6" fill="#F7F5F0"/>
+        <rect x="72" y="72" width="180" height="12" rx="6" fill="#1B2A41" opacity="0.85"/>
+        <rect x="72" y="94" width="120" height="8" rx="4" fill="#B08D57" opacity="0.7"/>
+        <!-- 折れ線グラフ -->
+        <polyline points="72,220 120,190 168,205 216,160 264,175 312,130 360,145 408,110"
+          fill="none" stroke="#B08D57" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <polyline points="72,240 120,235 168,225 216,228 264,210 312,215 360,195 408,190"
+          fill="none" stroke="#1B2A41" stroke-width="3" opacity="0.4" stroke-linecap="round" stroke-linejoin="round"/>
+        <!-- 棒グラフ -->
+        <g fill="#1B2A41" opacity="0.15">
+          <rect x="72" y="255" width="28" height="30"/>
+          <rect x="112" y="245" width="28" height="40"/>
+          <rect x="152" y="260" width="28" height="25"/>
+          <rect x="192" y="238" width="28" height="47"/>
+          <rect x="232" y="250" width="28" height="35"/>
+        </g>
+        <g fill="#B08D57" opacity="0.9">
+          <rect x="292" y="252" width="22" height="33"/>
+          <rect x="324" y="240" width="22" height="45"/>
+          <rect x="356" y="258" width="22" height="27"/>
+          <rect x="388" y="232" width="22" height="53"/>
+        </g>
+        <!-- PC土台 -->
+        <rect x="10" y="320" width="500" height="16" rx="8" fill="#1B2A41"/>
+        <!-- スマホ -->
+        <rect x="400" y="180" width="100" height="190" rx="14" fill="#1B2A41"/>
+        <rect x="408" y="196" width="84" height="158" rx="6" fill="#FFFFFF"/>
+        <rect x="416" y="206" width="52" height="8" rx="4" fill="#1B2A41" opacity="0.8"/>
+        <polyline points="416,300 436,280 452,290 468,262 484,270"
+          fill="none" stroke="#B08D57" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <g fill="#1B2A41" opacity="0.15">
+          <rect x="416" y="318" width="14" height="24"/>
+          <rect x="436" y="310" width="14" height="32"/>
+          <rect x="456" y="322" width="14" height="20"/>
+          <rect x="476" y="306" width="14" height="36"/>
+        </g>
+      </svg>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 課題提起 ===== -->
+<section class="section issue" id="issue">
+  <div class="section__inner">
+    <p class="section__label">ISSUE</p>
+    <h2 class="section__title">心当たり、ありませんか。</h2>
+    <p class="section__lead">
+      システム開発を頼める会社は増えました。<br>
+      選択肢が増えた分、別の困りごとも生まれています。
+    </p>
+
+    <div class="issue__grid">
+      <div class="issue__card">
+        <h3 class="issue__card-title"><span class="issue__num">01</span>「エクセルで、なんとか回している」</h3>
+        <p class="issue__card-body">関数とマクロを継ぎ足しながら、今日も業務は回っている。ただ、作った本人しか中身が分からず、壊れたときに誰も直せない。そろそろちゃんとしたい、とは思っている。</p>
+        <p class="issue__card-answer">まずは今の運用をそのまま拝見します。全部を作り替えず、壊れやすいところから順に置き換えるご提案をします。</p>
+      </div>
+      <div class="issue__card">
+        <h3 class="issue__card-title"><span class="issue__num">02</span>「見積もりが、想像の倍だった」</h3>
+        <p class="issue__card-body">やりたいことを伝えたら、返ってきた金額に言葉を失った。削れるところを聞いても「一式です」としか返ってこない。結局、話が止まったまま何ヶ月も経っている。</p>
+        <p class="issue__card-answer">最初から全部は作りません。効果が出る一番小さい範囲を切り出して、そこから始めます。</p>
+      </div>
+      <div class="issue__card">
+        <h3 class="issue__card-title"><span class="issue__num">03</span>「業務の話が、そもそも通じない」</h3>
+        <p class="issue__card-body">こちらの仕事の流れを説明するところに時間の大半が消える。専門用語で返され、認識が合っているのかも分からない。出来上がったものを見て、初めてズレに気づく。</p>
+        <p class="issue__card-answer">仕様書は不要です。お話を伺いながら、こちらで叩き台をつくり、画面を見ながらすり合わせます。</p>
+      </div>
+      <div class="issue__card">
+        <h3 class="issue__card-title"><span class="issue__num">04</span>「数字を扱う仕組みは、頼み先が限られる」</h3>
+        <p class="issue__card-body">相場データ、約定、建玉、証拠金。言葉の意味から説明しないといけない相手には、任せづらい。かといって、大手に頼むには規模が合わない。</p>
+        <p class="issue__card-answer">私たち自身が、証券会社のデータ連携を使ったシステムを日々動かしています。前提の説明から始めていただく必要はありません。</p>
+      </div>
+    </div>
+
+    <p class="issue__closing">
+      どれも、私たちがよく伺うお話です。<br>
+      「これは相談していい内容だろうか」と迷われている方こそ、まずお話だけでもお聞かせください。
+    </p>
+  </div>
+</section>
+
+<!-- ===== 差別化 ===== -->
+<section class="section strength" id="strength">
+  <div class="section__inner">
+    <p class="section__label section__label--light">STRENGTH</p>
+    <h2 class="section__title section__title--light">「つくる力」と「動かし続けた経験」を、<br class="pc-only">両方持っています。</h2>
+    <p class="section__lead section__lead--light">
+      何をつくるべきか決まっていなくて構いません。<br>
+      業務のお話から伺い、何を自動化できそうかを一緒に整理するところから始めます。<br>
+      発注先というより、業務を一緒に見直す相手でありたいと考えています。
+    </p>
+
+    <div class="strength__grid">
+      <div class="strength__card">
+        <div class="strength__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><rect x="6" y="10" width="36" height="24" rx="3" fill="none" stroke="currentColor" stroke-width="2.5"/><polyline points="14,20 19,24 14,28" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="23" y1="28" x2="32" y2="28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><line x1="16" y1="40" x2="32" y2="40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <p class="strength__num">01</p>
+        <h3 class="strength__card-title">自社で開発し、<br>自社で運用しています</h3>
+        <p class="strength__card-body">私たちは受託開発だけの会社ではありません。自社の業務で使うシステムを開発し、実際に毎日稼働させています。つくった直後は正しく見えた仕様が、運用を重ねると破綻することがある。想定外の入力、通信の遅延、例外処理の穴。そうした「動かして初めて出る不具合」を、自分たちで踏み抜いてきました。机上で綺麗な仕様書より、現場で壊れない設計を優先します。</p>
+      </div>
+      <div class="strength__card">
+        <div class="strength__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M10 38V14a3 3 0 0 1 3-3h16l9 9v18a3 3 0 0 1-3 3H13a3 3 0 0 1-3-3z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><polyline points="29,11 29,20 38,20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><line x1="17" y1="27" x2="31" y2="27" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><line x1="17" y1="33" x2="27" y2="33" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <p class="strength__num">02</p>
+        <h3 class="strength__card-title">要件は、こちらから<br>提案します</h3>
+        <p class="strength__card-body">「仕様を固めてからご相談ください」とは申し上げません。お話を伺いながら叩き台をつくり、それを見ていただきながら固めていきます。要件を言語化する作業自体を、こちらで引き受けます。</p>
+      </div>
+      <div class="strength__card">
+        <div class="strength__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="26" r="16" fill="none" stroke="currentColor" stroke-width="2.5"/><line x1="24" y1="26" x2="24" y2="16" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><line x1="24" y1="26" x2="31" y2="30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><line x1="19" y1="6" x2="29" y2="6" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <p class="strength__num">03</p>
+        <h3 class="strength__card-title">小さく作って、<br>育てていきます</h3>
+        <p class="strength__card-body">最初から完成形を目指すと、金額も期間も膨らみます。まずは効果が出る最小の範囲を切り出して形にし、実際に使っていただきながら次を決める。仕様が途中で変わることを、前提に置いています。</p>
+      </div>
+    </div>
+
+    <div class="strength__contrast">
+      <p>一般的な開発会社では、お客様側で要件を固めてからのご発注が前提になります。<br>
+      Y2FinTechは、業務の中身から一緒に考える少人数のチームとして、構想の段階からご一緒できます。</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== お約束 ===== -->
+<section class="section promise" id="promise">
+  <div class="section__inner">
+    <p class="section__label">PROMISE</p>
+    <h2 class="section__title">Y2FinTechの、3つのお約束</h2>
+    <p class="section__lead">ご相談から納品まで、私たちが必ず守っていることです。</p>
+
+    <div class="promise__grid">
+      <div class="promise__card">
+        <div class="promise__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="10" width="32" height="24" rx="3" fill="none" stroke="currentColor" stroke-width="2.5"/><line x1="8" y1="18" x2="40" y2="18" stroke="currentColor" stroke-width="2.5"/><circle cx="13" cy="14" r="1.5" fill="currentColor"/><circle cx="18" cy="14" r="1.5" fill="currentColor"/><polyline points="18,26 22,30 30,22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><line x1="18" y1="40" x2="30" y2="40" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <p class="promise__num">01</p>
+        <h3 class="promise__card-title">ご契約の前に、実際に触れる<br>試作版をお渡しします</h3>
+        <p class="promise__card-body">2回目のお打ち合わせで、操作できる試作版をお持ちします。ボタンを押す、画面が切り替わる、数字が変わる。完成イメージが分からないまま発注していただく状況を、なくしたいと考えています。</p>
+      </div>
+      <div class="promise__card">
+        <div class="promise__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path d="M24 6l14 6v10c0 9-6 16-14 20-8-4-14-11-14-20V12z" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><polyline points="17,24 22,29 31,19" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <p class="promise__num">02</p>
+        <h3 class="promise__card-title">当初の範囲内の手直しに、<br>追加費用はいただきません</h3>
+        <p class="promise__card-body">納品後の微調整や表示の修正は、追加費用なしで対応します。「少し直したいだけなのに、また見積もり」という手間を省きたいためです。</p>
+        <p class="promise__card-note">※ 新機能の追加や、設計の前提が変わる改修については、別途ご相談ください。</p>
+      </div>
+      <div class="promise__card">
+        <div class="promise__icon" aria-hidden="true">
+          <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="16" r="8" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M8 42c0-9 7-14 16-14s16 5 16 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+        </div>
+        <p class="promise__num">03</p>
+        <h3 class="promise__card-title">代表が、最初から最後まで<br>担当します</h3>
+        <p class="promise__card-body">ご相談、開発、納品、その後の調整まで、代表が直接窓口を務めます。営業担当と開発担当が別で、話が伝わらないという状況は起きません。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 代表メッセージ ===== -->
+<section class="section message" id="message">
+  <div class="section__inner">
+    <p class="section__label">MESSAGE</p>
+    <h2 class="section__title">代表からのご挨拶</h2>
+
+    <div class="message__box">
+      <p>ご覧いただき、ありがとうございます。<br>
+      合同会社Y2FinTech 代表です。</p>
+
+      <p>私はもともと、システムを発注する側でも、つくる側でもありませんでした。<br>
+      自分の業務を楽にしたくて、自分でつくり始めたのが最初です。</p>
+
+      <p>つくってみて、分かったことがあります。</p>
+
+      <ul class="message__points">
+        <li>動くものと、動き続けるものは、別物である。</li>
+        <li>仕様書の上で正しくても、現場では壊れる。</li>
+        <li>一番怖いのは、静かに間違った処理が走り続けることである。</li>
+      </ul>
+
+      <p>自分で運用しているので、不具合の損失は自分が被ります。だからこそ、例外処理を省きません。二重の安全装置を入れます。「たぶん大丈夫」で先に進みません。</p>
+
+      <p>これは、受託開発でも同じです。納品して終わりではなく、お客様がその後何年も使い続けるものをつくっている。その意識を持ち続けたいと思っています。</p>
+
+      <div class="message__motto">「業務にちょうど合うものを、手の届く金額で。」</div>
+
+      <p>Y2FinTechは、その考えから生まれた会社です。</p>
+
+      <p>「システムはよく分からない」という方も、専門用語でお話しいただく必要はありません。<br>
+      普段の業務のお話から、ご一緒させてください。</p>
+
+      <p class="message__sign">合同会社Y2FinTech　代表社員</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 開発実績 ===== -->
+<section class="section works" id="works">
+  <div class="section__inner">
+    <p class="section__label">WORKS</p>
+    <h2 class="section__title">これまでの開発</h2>
+    <p class="section__lead">
+      業務の自動化から、データ連携、金融まわりの仕組みまで。<br>
+      規模の大小を問わず、お手伝いしてきました。
+    </p>
+
+    <div class="works__featured">
+      <div class="works__featured-visual" aria-hidden="true">
+        <svg viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0" y="0" width="400" height="260" rx="8" fill="#1B2A41"/>
+          <rect x="16" y="16" width="368" height="228" rx="4" fill="#F7F5F0"/>
+          <rect x="28" y="28" width="140" height="10" rx="5" fill="#1B2A41" opacity="0.85"/>
+          <rect x="28" y="46" width="90" height="7" rx="3.5" fill="#B08D57" opacity="0.7"/>
+          <!-- ローソク足チャート風 -->
+          <g stroke="#1B2A41" stroke-width="1.5" opacity="0.6">
+            <line x1="40" y1="80" x2="40" y2="140"/><line x1="64" y1="90" x2="64" y2="150"/>
+            <line x1="88" y1="75" x2="88" y2="130"/><line x1="112" y1="95" x2="112" y2="155"/>
+            <line x1="136" y1="70" x2="136" y2="125"/><line x1="160" y1="85" x2="160" y2="140"/>
+          </g>
+          <g>
+            <rect x="35" y="95" width="10" height="30" fill="#B08D57"/>
+            <rect x="59" y="105" width="10" height="28" fill="#1B2A41" opacity="0.5"/>
+            <rect x="83" y="88" width="10" height="26" fill="#B08D57"/>
+            <rect x="107" y="110" width="10" height="30" fill="#1B2A41" opacity="0.5"/>
+            <rect x="131" y="82" width="10" height="28" fill="#B08D57"/>
+            <rect x="155" y="98" width="10" height="26" fill="#1B2A41" opacity="0.5"/>
+          </g>
+          <!-- 右側パネル -->
+          <rect x="190" y="70" width="180" height="34" rx="4" fill="#FFFFFF" stroke="#1B2A41" stroke-opacity="0.15"/>
+          <rect x="190" y="112" width="180" height="34" rx="4" fill="#FFFFFF" stroke="#1B2A41" stroke-opacity="0.15"/>
+          <rect x="190" y="154" width="180" height="34" rx="4" fill="#FFFFFF" stroke="#1B2A41" stroke-opacity="0.15"/>
+          <circle cx="206" cy="87" r="6" fill="#B08D57"/>
+          <circle cx="206" cy="129" r="6" fill="#1B2A41" opacity="0.4"/>
+          <circle cx="206" cy="171" r="6" fill="#B08D57"/>
+          <rect x="220" y="82" width="100" height="8" rx="4" fill="#1B2A41" opacity="0.3"/>
+          <rect x="220" y="124" width="120" height="8" rx="4" fill="#1B2A41" opacity="0.3"/>
+          <rect x="220" y="166" width="80" height="8" rx="4" fill="#1B2A41" opacity="0.3"/>
+          <!-- ステータスバー -->
+          <rect x="28" y="205" width="342" height="26" rx="4" fill="#1B2A41" opacity="0.9"/>
+          <circle cx="44" cy="218" r="5" fill="#7BC47F"/>
+          <rect x="58" y="214" width="110" height="8" rx="4" fill="#FFFFFF" opacity="0.7"/>
+        </svg>
+      </div>
+      <div class="works__featured-text">
+        <p class="works__featured-tag">自社開発 ｜ フィンテック</p>
+        <h3 class="works__featured-title">相場データ連携型 自動売買システム</h3>
+        <p class="works__featured-body">証券会社のリアルタイムデータ配信を用い、指定した条件が揃った瞬間に発注・決済までを自動で行うシステムです。1分単位で判定を行い、想定外の状況でも建玉が残らないよう、複数の安全装置を重ねた設計にしています。</p>
+        <p class="works__featured-body">私たち自身が日々運用しており、そこで得た知見を、お客様のシステム開発にもそのまま活かしています。</p>
+        <p class="works__note">※ 本システムは自社運用を目的として開発したものであり、販売・提供・投資助言を行うものではありません。</p>
+      </div>
+    </div>
+
+    <div class="works__fields">
+      <p class="works__fields-title">対応できる開発領域</p>
+      <div class="works__fields-grid">
+        <div class="works__field">
+          <div class="works__field-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><circle cx="24" cy="24" r="9" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M24 9v6M24 33v6M9 24h6M33 24h6M13.4 13.4l4.3 4.3M30.3 30.3l4.3 4.3M13.4 34.6l4.3-4.3M30.3 17.7l4.3-4.3" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h4>業務自動化ツール</h4>
+          <p>手作業で行っている集計・転記・帳票作成の自動化</p>
+        </div>
+        <div class="works__field">
+          <div class="works__field-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><ellipse cx="24" cy="12" rx="14" ry="6" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M10 12v24c0 3.3 6.3 6 14 6s14-2.7 14-6V12" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M10 24c0 3.3 6.3 6 14 6s14-2.7 14-6" fill="none" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h4>業務システム</h4>
+          <p>顧客・案件・在庫などの一元管理と、権限つきの画面提供</p>
+        </div>
+        <div class="works__field">
+          <div class="works__field-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="24" r="6" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="36" cy="12" r="6" fill="none" stroke="currentColor" stroke-width="2.5"/><circle cx="36" cy="36" r="6" fill="none" stroke="currentColor" stroke-width="2.5"/><line x1="17" y1="21" x2="31" y2="14" stroke="currentColor" stroke-width="2.5"/><line x1="17" y1="27" x2="31" y2="34" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h4>外部サービス連携</h4>
+          <p>外部APIとの接続、リアルタイムデータの取得と処理の自動化</p>
+        </div>
+        <div class="works__field">
+          <div class="works__field-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><rect x="14" y="6" width="20" height="36" rx="4" fill="none" stroke="currentColor" stroke-width="2.5"/><line x1="20" y1="36" x2="28" y2="36" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><rect x="6" y="14" width="14" height="10" rx="2" fill="#F7F5F0" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h4>ウェブ・アプリ開発</h4>
+          <p>会員機能・管理画面を備えたサービスやアプリの構築</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 開発の流れ ===== -->
+<section class="section process" id="process">
+  <div class="section__inner">
+    <p class="section__label">PROCESS</p>
+    <h2 class="section__title">ご相談から納品までの流れ</h2>
+    <p class="section__lead">
+      ご契約のご判断は、試作版をご覧いただいてからで構いません。<br>
+      そこまでは費用をいただきません。
+    </p>
+
+    <div class="process__phase">
+      <p class="process__phase-label process__phase-label--free">FREE ／ ご契約前</p>
+      <div class="process__steps">
+        <div class="process__step">
+          <p class="process__step-num">STEP 01</p>
+          <h3 class="process__step-title">初回ご相談<span>（60分・無料）</span></h3>
+          <p class="process__step-body">まずはお話を聞かせてください。今の業務、お困りごと、つくりたいものの方向性を伺います。この時点で、具体的な仕様や要件をご用意いただく必要はありません。</p>
+        </div>
+        <div class="process__step">
+          <p class="process__step-num">STEP 02</p>
+          <h3 class="process__step-title">試作版のご提案<span>（最短2週間後・無料／月3社まで）</span></h3>
+          <p class="process__step-body">初回ご相談から最短2週間ほどで、実際に操作できる試作版と、おおよその費用感をお持ちします。「自分の業務がこう変わる」を、その場で確かめていただけます。</p>
+        </div>
+      </div>
+      <div class="process__judge">
+        ここまでで、ご契約に進むかどうかをご判断ください。<br>
+        ご納得いただけなければ、ここで終了で構いません。
+      </div>
+    </div>
+
+    <div class="process__phase">
+      <p class="process__phase-label">CONTRACT ／ ご契約後</p>
+      <div class="process__steps">
+        <div class="process__step">
+          <p class="process__step-num">STEP 03</p>
+          <h3 class="process__step-title">要件確定・お見積もり</h3>
+          <p class="process__step-body">ご契約後、要件を細かくすり合わせ、確定した金額をお出しします。</p>
+        </div>
+        <div class="process__step">
+          <p class="process__step-num">STEP 04</p>
+          <h3 class="process__step-title">開発</h3>
+          <p class="process__step-body">定期的に進捗を共有しながら進めます。途中でのご要望も歓迎します。</p>
+        </div>
+        <div class="process__step">
+          <p class="process__step-num">STEP 05</p>
+          <h3 class="process__step-title">納品</h3>
+          <p class="process__step-body">完成したシステムをお渡しし、操作方法もその場でご説明します。納品の形は、お客様の環境への導入か、弊社側でのご提供か、ご要件に応じてご相談ください。</p>
+        </div>
+        <div class="process__step">
+          <p class="process__step-num">STEP 06</p>
+          <h3 class="process__step-title">納品後の調整</h3>
+          <p class="process__step-body">当初の要件範囲内の手直しは、追加費用なしで対応します。継続的な運用保守（監視・障害対応・機能追加など）をご希望の場合は、別途ご相談ください。有料にて承ります。</p>
+        </div>
+      </div>
+    </div>
+
+    <p class="process__note">※ 月3社まで、ご契約前に試作版をお作りしています。お問い合わせをいただいた順にご案内します。</p>
+    <p class="process__note">※ 費用はご要件に応じてお見積もりします。詳しくはお問い合わせください。</p>
+  </div>
+</section>
+
+<!-- ===== よくあるご質問 ===== -->
+<section class="section faq" id="faq">
+  <div class="section__inner">
+    <p class="section__label">FAQ</p>
+    <h2 class="section__title">よくあるご質問</h2>
+
+    <div class="faq__list">
+      <details class="faq__item">
+        <summary class="faq__q">お預かりしたデータが、外部に出ることはありませんか？</summary>
+        <div class="faq__a"><p>お預かりしたデータは、ご依頼いただいた開発の目的以外には使用しません。外部の生成AIサービス等に業務データをそのまま投入することもいたしません。取り扱いのルールは、ご契約時に書面で明確にします。</p></div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">NDA（機密保持契約）は締結できますか？</summary>
+        <div class="faq__a"><p>はい、可能です。お客様の書式でも、弊社の書式でも対応します。ご相談の段階からの締結もお受けしています。</p></div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">契約形態は請負ですか、準委任ですか？</summary>
+        <div class="faq__a"><p>原則として請負契約です。仕様が固まりきらない段階から並走する場合など、ご要望に応じて準委任での対応もご相談いただけます。</p></div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">納期はどのくらいですか？</summary>
+        <div class="faq__a"><p>規模によりますが、業務自動化ツールで2〜3週間、業務システムで1〜2ヶ月が目安です。お急ぎの場合はご相談ください。</p></div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">修正はどこまで無料ですか？</summary>
+        <div class="faq__a"><p>当初お約束した要件の範囲内であれば、納品後の手直し・微調整は追加費用なしで対応します。新機能の追加や、設計の前提が変わる改修は別途お見積もりとなります。</p></div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">費用や見積もりはいつ分かりますか？</summary>
+        <div class="faq__a"><p>2回目のお打ち合わせで、おおよその費用感をお伝えします。確定金額は、ご契約後に要件をすり合わせたうえでお出しします。まずはお気軽にお問い合わせください。</p></div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">どんなシステムがつくれますか？</summary>
+        <div class="faq__a"><p>業務の自動化ツール、社内システム、外部サービスとのデータ連携、ウェブサービス、スマートフォンアプリなどに対応しています。「これは頼めるだろうか」と迷われる内容でも、まずはお聞かせください。</p></div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">遠方でも依頼できますか？</summary>
+        <div class="faq__a"><p>はい。オンラインでの打ち合わせに対応しており、全国からご依頼いただけます。ご希望があれば、福岡市内・近郊は対面でも伺います。</p></div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">試作版の枠は、いつ空きますか？</summary>
+        <div class="faq__a"><p>月3社までとさせていただいており、お問い合わせをいただいた順にご案内しています。枠が埋まっている場合は、次月のご案内となる旨をお伝えします。</p></div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">投資や資産運用の相談にも乗ってもらえますか？</summary>
+        <div class="faq__a"><p>いいえ。弊社は投資助言・代理業の登録を受けておらず、個別の銘柄や投資判断に関する助言は一切行っておりません。お受けするのは、お客様のご要件に沿ったシステムの受託開発のみです。</p></div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 会社概要 ===== -->
+<section class="section company" id="company">
+  <div class="section__inner">
+    <p class="section__label">COMPANY</p>
+    <h2 class="section__title">会社概要</h2>
+
+    <dl class="company__table">
+      <div class="company__row"><dt>商号</dt><dd>合同会社Y2FinTech</dd></div>
+      <div class="company__row"><dt>設立</dt><dd>2026年2月2日</dd></div>
+      <div class="company__row"><dt>所在地</dt><dd>〒812-0011<br>福岡県福岡市博多区博多駅前二丁目19番17号<br>トーカン博多第5ビル312号室</dd></div>
+      <div class="company__row"><dt>事業内容</dt><dd>
+        ・システム、ソフトウェアの企画、開発、保守、運営およびそれらの受託<br>
+        ・アプリケーションソフトの企画、開発、保守、運営およびそれらの受託<br>
+        ・ウェブサイト、ウェブコンテンツ、インターネットを利用した各種サービスの企画、制作、運営および管理<br>
+        ・ファイナンス・テクノロジー事業
+      </dd></div>
+    </dl>
+
+    <div class="company__cta">
+      <a href="#contact" class="btn btn--gold">お問い合わせはこちら <span class="btn__arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 最終CTA・お問い合わせ ===== -->
+<section class="section contact" id="contact">
+  <div class="section__inner">
+    <p class="section__label section__label--light">CONTACT</p>
+    <h2 class="section__title section__title--light">まずは無料で、<br class="sp-only">動く状態までお作りします</h2>
+    <p class="section__lead section__lead--light">
+      「何を頼めばいいか分からない」「うちの規模で相談していいのだろうか」<br>
+      そんなお気持ちのままで構いません。ぜひお話を聞かせてください。
+    </p>
+
+    <div class="contact__offer">
+      <div class="contact__offer-badge">月<span>3</span>社まで</div>
+      <p>ご契約前に、実際に操作できる試作版をお作りします</p>
+    </div>
+
+    <ul class="contact__checks">
+      <li>オンラインで完結</li>
+      <li>60分・無料</li>
+      <li>無理な営業はしません</li>
+    </ul>
+
+    <p class="contact__supplement">
+      初回ご相談（60分）から、2回目のお打ち合わせで試作版と概算費用をお持ちするところまで、費用はいただきません。<br>
+      費用の詳細についても、お問い合わせの際にお気軽にご質問ください。
+    </p>
+
+    <!--
+      ※ 送信先の設定について
+      現在は下記フォーム送信時にメールソフトが起動する仕組み（mailto）です。
+      js/main.js の CONTACT_EMAIL を実際のメールアドレスに変更してください。
+      Googleフォームやフォームサービス（formrun等）に差し替える場合は、
+      この form ごと埋め込みコードに置き換えてください。
+    -->
+    <form class="contact__form" id="contactForm">
+      <div class="contact__form-row">
+        <label for="f-name">お名前 <span class="req">必須</span></label>
+        <input type="text" id="f-name" name="name" required autocomplete="name" placeholder="例）山田 太郎">
+      </div>
+      <div class="contact__form-row">
+        <label for="f-company">会社名</label>
+        <input type="text" id="f-company" name="company" autocomplete="organization" placeholder="例）株式会社◯◯">
+      </div>
+      <div class="contact__form-row">
+        <label for="f-email">メールアドレス <span class="req">必須</span></label>
+        <input type="email" id="f-email" name="email" required autocomplete="email" placeholder="例）info@example.com">
+      </div>
+      <div class="contact__form-row">
+        <label for="f-message">ご相談内容 <span class="req">必須</span></label>
+        <textarea id="f-message" name="message" rows="5" required placeholder="例）エクセルで管理している受注業務を自動化したい　など、おおまかな内容で構いません"></textarea>
+      </div>
+      <button type="submit" class="btn btn--cta contact__submit">無料で相談する <span class="btn__arrow">→</span></button>
+      <p class="contact__form-note">24時間受付中 ／ お問い合わせをいただいた順にご案内します</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- ===== フッター ===== -->
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <p class="footer__logo"><img src="img/logo.png" alt="合同会社Y2FinTech" class="footer__logo-img"></p>
+      <p class="footer__desc">自社でシステムを開発・運用し、<br>その知見を企業のシステム開発に活かすチームです。</p>
+    </div>
+    <div class="footer__nav">
+      <div class="footer__col">
+        <p class="footer__col-title">サービス</p>
+        <ul>
+          <li><a href="#works">業務自動化</a></li>
+          <li><a href="#works">業務システム開発</a></li>
+          <li><a href="#works">ウェブ・アプリ開発</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <p class="footer__col-title">会社情報</p>
+        <ul>
+          <li><a href="#company">会社概要</a></li>
+          <li><a href="#message">代表メッセージ</a></li>
+          <li><a href="#works">開発実績</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>© 2026 合同会社Y2FinTech All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- ===== 追従CTA ===== -->
+<a href="#contact" class="float-cta" id="floatCta">
+  <span class="float-cta__text">無料で相談する</span>
+  <span class="float-cta__arrow">→</span>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
