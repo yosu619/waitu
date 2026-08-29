@@ -901,6 +901,7 @@ a { color: inherit; text-decoration: none; }
     padding: 14px 4px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     font-size: 15px;
+    color: aliceblue;
   }
   .gnav__list a::after { display: none; }
   .gnav__cta { width: 100%; }
